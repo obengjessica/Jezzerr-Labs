@@ -1,0 +1,128 @@
+header{
+  background-color: aqua;
+  text-align: center;
+  color:rgb(6, 70, 122);
+  padding: 5px 0;
+}
+header.mylogo-D{
+  text-align: center;
+  color:rgb(6, 70, 122);
+  padding: 5px 0;
+}
+
+nav ul {
+  list-style:none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a{
+  color: rgb(6, 70, 122);
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+nav ul li a:hover{
+  color: rgb(255, 0, 230);
+}
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
+  color:  white;
+  line-height: 1.4;
+  background-image: url('JezzerrLabsR2.jpg');
+
+}
+
+#logo{
+  width: 100px;
+  height: 70px;
+  border-radius: 10px;
+}
+
+.D-head{
+  color: gold;
+}
+
+.button{
+  background-color: aqua;
+  color: black;
+  border-radius: 20px;
+  height: 30px;
+  width: 140px;
+  opacity: 0.5;
+  cursor: pointer;
+
+}
+
+.form-container{
+  display: flex;
+  flex-wrap: wrap; /* allows wrapping on smaller screens */
+  justify-content: space-between; /* space between the two forms */
+  gap: 20px; /* optional spacing */
+}
+.form-container1{
+  display: flex;
+  flex-wrap: wrap; /* allows wrapping on smaller screens */
+  justify-content: space-between; /* space between the two forms */
+  gap: 20px; /* optional spacing */
+}
+.form-container2{
+  display: flex;
+  flex-wrap: wrap; /* allows wrapping on smaller screens */
+  justify-content: space-between; /* space between the two forms */
+  gap: 20px; /* optional spacing */
+}
+.form-container3{
+  display: flex;
+  flex-wrap: wrap; /* allows wrapping on smaller screens */
+  justify-content: space-between; /* space between the two forms */
+  gap: 20px; /* optional spacing */
+}
+.form-container4{
+  display: flex;
+  flex-wrap: wrap; /* allows wrapping on smaller screens */
+  justify-content: space-between; /* space between the two forms */
+  gap: 20px; /* optional spacing */
+}
+.form-container5{
+  display: flex;
+  flex-wrap: wrap; /* allows wrapping on smaller screens */
+  justify-content: space-between; /* space between the two forms */
+  gap: 20px; /* optional spacing */
+}
+
+form{
+  flex: 1 1 45%; /* grow and shrink as needed */
+  min-width: 280px; /* ensures minimum readable size */
+  padding: 20px;
+  width: 45%; /* adjust as needed */
+  box-sizing: border-box;
+}
+
+@media (max-width: 600px) {
+  form {
+    flex: 1 1 100%; /* stack vertically on small screens */
+  }
+}
+
+/* or you can use this to style the forms in html thus inline block 
+<form style="display: inline-block; vertical-align: top; width: 45%; margin-right: 5%;">
+  <h3>Form Left</h3>
+  <input type="text" placeholder="Name"><br>
+  <button>Submit</button>
+</form> */
+
+footer{
+  background-color:  aqua;
+  color: black ;
+  text-align: center;
+  padding: 20px;
+  margin-top: 50px;
+}
